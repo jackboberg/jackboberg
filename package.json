@@ -6,6 +6,10 @@
   "bugs": {
     "url": "https://github.com/jackboberg/jackboberg/issues"
   },
+  "dependencies": {
+    "prettyjson": "^1.2.1"
+  },
+  "devDependencies": {},
   "homepage": "https://github.com/jackboberg/jackboberg#readme",
   "keywords": [
     "Jack Boberg",
