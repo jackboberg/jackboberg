@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+
+const { render } = require('prettyjson')
+const data = require('../info.json')
+
+const args = process.argv.slice(2)
+
+const opts = {
+  dashColor: 'cyan',
+  keysColor: 'blue',
+  stringColor: 'white'
+}
+
+const wantsJson = (flag) => ['-j', '--json'].includes(flag)
+const out = args.some(wantsJson) ? data : render(data, opts)
+
+console.log(out)

@@ -3,6 +3,7 @@
   "description": "Jack Boberg's contact information",
   "version": "0.0.0",
   "author": "Jack Boberg <hello@jackboberg.info> (http://jackboberg.info/)",
+  "bin": "./bin/jackboberg",
   "bugs": {
     "url": "https://github.com/jackboberg/jackboberg/issues"
   },
