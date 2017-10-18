@@ -1,0 +1,24 @@
+{
+  "name": "jackboberg",
+  "description": "Jack Boberg's contact information",
+  "version": "0.0.0",
+  "author": "Jack Boberg <hello@jackboberg.info> (http://jackboberg.info/)",
+  "bugs": {
+    "url": "https://github.com/jackboberg/jackboberg/issues"
+  },
+  "homepage": "https://github.com/jackboberg/jackboberg#readme",
+  "keywords": [
+    "Jack Boberg",
+    "contact",
+    "information"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackboberg/jackboberg.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
