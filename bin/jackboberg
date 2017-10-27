@@ -1,17 +1,21 @@
 #!/usr/bin/env node
 
+const minimist = require('minimist')
 const { render } = require('prettyjson')
+
 const data = require('../info.json')
 
-const args = process.argv.slice(2)
+const argvOpts = {
+  alias: { json: 'j' }
+}
 
-const opts = {
+const renderOpts = {
   dashColor: 'cyan',
   keysColor: 'blue',
   stringColor: 'white'
 }
 
-const wantsJson = (flag) => ['-j', '--json'].includes(flag)
-const out = args.some(wantsJson) ? data : render(data, opts)
+const argv = minimist(process.argv.slice(2), argvOpts)
+const out = argv.json ? data : render(data, renderOpts)
 
 console.log(out)
