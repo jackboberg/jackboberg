@@ -8,6 +8,7 @@
     "url": "https://github.com/jackboberg/jackboberg/issues"
   },
   "dependencies": {
+    "minimist": "^1.2.0",
     "prettyjson": "^1.2.1"
   },
   "devDependencies": {},
