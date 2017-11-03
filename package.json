@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "cowsay": "^1.2.1",
+    "lodash.omit": "^4.5.0",
     "minimist": "^1.2.0",
     "prettyjson": "^1.2.1"
   },
