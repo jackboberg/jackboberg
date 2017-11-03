@@ -4,7 +4,7 @@ const minimist = require('minimist')
 const pkg = require('..')
 
 const options = {
-  alias: { json: 'j' }
+  alias: { json: 'j', cow: 'f' }
 }
 const argv = minimist(process.argv.slice(2), options)
 
