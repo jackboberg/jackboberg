@@ -1,21 +1,12 @@
 #!/usr/bin/env node
 
 const minimist = require('minimist')
-const { render } = require('prettyjson')
+const pkg = require('..')
 
-const data = require('../info.json')
-
-const argvOpts = {
+const options = {
   alias: { json: 'j' }
 }
+const argv = minimist(process.argv.slice(2), options)
 
-const renderOpts = {
-  dashColor: 'cyan',
-  keysColor: 'blue',
-  stringColor: 'white'
-}
+console.log(pkg(argv))
 
-const argv = minimist(process.argv.slice(2), argvOpts)
-const out = argv.json ? data : render(data, renderOpts)
-
-console.log(out)
