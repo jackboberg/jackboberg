@@ -1,7 +1,7 @@
 {
   "name": "jackboberg",
   "description": "Jack Boberg's contact information",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "author": "Jack Boberg <hello@jackboberg.info> (http://jackboberg.info/)",
   "bin": "./cli.js",
   "bugs": {
