@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const minimist = require('minimist')
-const pkg = require('..')
+const pkg = require('.')
 
 const options = {
   alias: { json: 'j', cow: 'f' }
