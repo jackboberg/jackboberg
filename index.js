@@ -1,5 +1,5 @@
 const format = require('./lib/format')
-const data = require('./info.json')
+const data = require('./lib/data')
 
 module.exports = ({ json, cow = 'whale' }) => json
   ? JSON.stringify(data)
